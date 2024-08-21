@@ -1,0 +1,165 @@
+.cek {
+    border: 1px red solid;
+}
+
+.text-medium {
+    font-size: small !important;
+}
+
+.text-opacity-50 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-blue-hb {
+    background-color: #038FA6 !important;
+}
+
+.text-blue-hb {
+    color: #038FA6 !important;
+}
+
+.hb-card-title-text {
+    color: #038FA6 !important;
+}
+
+.bg-yellow-hb {
+    background-color: #F6CD45 !important;
+}
+
+.theme--light.v-pagination .v-pagination__item--active {
+    background-color: #038FA6 !important;
+}
+
+.dashboard-card-daily {
+    border-radius: 10px 10px 0px 0px!important;
+    /* border-bottom: 4px solid #01579B !important; */
+}
+
+.dashboard-card-weekly {
+    border-radius: 10px 10px 0px 0px!important;
+    /* border-bottom: 4px solid #01579B !important; */
+}
+
+.dashboard-card-monthly {
+    border-radius: 10px 10px 0px 0px!important;
+    /* border-bottom: 4px solid #01579B !important; */
+}
+
+.dashboard-card-title-text {
+    color: rgb(181, 181, 195) !important;
+    text-align: left !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+/* Form CSS Section */
+
+.hb-loading {
+    color: #038FA6 !important;
+}
+
+.bg-form-title {
+    font-weight: bold !important;
+    color: #038FA6 !important;
+    background-color: #F4F6F9 !important;
+}
+
+/* Header Space between search and items per page */
+.flex-container {
+    display: flex !important;
+    justify-content: space-around !important;
+    background-color: #ff0000 !important; 
+}
+
+.required-form-asterisk {
+    color: red !important;
+}
+
+.dashed-outline {
+    border: 2px dashed grey !important; /* Customize border width and color as needed */
+    border-radius: 6px !important;
+}
+
+.btn-blue-style {
+    background-color: #038FA6 !important;
+    color: #FFFFFF !important;
+    border-radius: 6px !important;
+    text-align: center !important;
+}
+
+.icon {
+    display: inline-block;
+    transform-origin: center;
+    transition: all 0.3s;
+}
+
+.action-icons {
+    color: #038FA6 !important;
+    padding: 4px !important;
+}
+
+.icon-rotate-enter-active,
+.icon-rotate-leave-active {
+    transition: transform 0.3s;
+}
+
+.icon-rotate-enter,
+.icon-rotate-leave-to {
+    transform: rotate(0deg);
+}
+
+.icon-rotate-enter-to,
+.icon-rotate-leave {
+    transform: rotate(90deg);
+}
+
+.page-margin {
+    margin: 12px 20px;
+}
+
+.hb-input-form-style {
+    padding: 12px;
+}
+
+.hb-card-table-style {
+    padding: 24px 24px 16px 24px
+}
+
+.description-column {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    /* Sesuaikan panjang maksimum sebelum muncul ellipsis */
+    cursor: pointer;
+    transition: all 3s ease-in-out;
+
+}
+
+.description-column:hover {
+    max-width: none;
+    text-wrap: wrap;
+    /* Hapus batas panjang maksimum saat dihover */
+}
+
+.slide-fade-enter-active {
+    transition: all 0.8s ease-out;
+}
+
+.slide-fade-leave-active {
+    transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.v-input--switch label {
+    margin: 0 !important;
+}
+
+.small-switch {
+    transform: scale(0.8); /* Sesuaikan faktor skala sesuai kebutuhan Anda */
+}
